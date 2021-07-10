@@ -1,0 +1,57 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: Montserrat; sans-serif;
+
+	background: url(falls3lotus.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+
+	h1 {
+		font-size: 3rem;
+		color: #e5eee1;
+		color: black;
+	  	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
+	  	-webkit-text-stroke-width: 2px;
+	  	-webkit-text-stroke-color: #ac0cba;
+	  	/*background-color: rgba(29,29, 29, 0.5);*/
+	  	/*max-width: 80%;*/
+
+	}
+
+	hr {
+		border-color: rebeccapurple;
+		border-width: 5px;
+		max-width: 65px;
+	}
+
+.buffer {
+	height: 5rem;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+.btn-primary {
+	background-color: #e7ee09;
+	color: black;
+	border-color: black;
+}
+
+.btn-primary:hover{
+	background-color: indianred;
+	border-color: rebeccapurple;
+	border-width: 4px;
+}
+
